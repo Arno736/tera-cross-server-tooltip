@@ -1,0 +1,12 @@
+{
+	"servers": ["https://raw.githubusercontent.com/Arno736/tera-cross-server-tooltip/master/"],
+	"supportUrl": "https://github.com/Arno736/tera-cross-server-tooltip/issues",
+	"name": "cross-server-tooltip",
+	"author": "Arno736",
+	"description": "Show tooltips when inspecting gear on players from other servers",
+	"version": "1.7",
+	"options": {
+		"niceName": "Cross Server Tooltip",
+		"guiName": "Cross Server Tooltip"
+	}
+}
