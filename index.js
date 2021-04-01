@@ -5,6 +5,8 @@ module.exports = function CrossServerTooltip(mod) {
         // 64bit make that some other servers player are considered playing on the same server
         // if (event.serverId == 0) return; // Same sever detected (64bit bug : other server player = 0)
         
+        if (!mod.game.me.inDungeon) return;
+
         if (paperdoll == undefined) return; // Paperdoll is not defined
 
         let item;
@@ -24,7 +26,7 @@ module.exports = function CrossServerTooltip(mod) {
         }
         
         // Show ToolTip
-        mod.send('S_SHOW_ITEM_TOOLTIP', 14, {
+        mod.toClient('S_SHOW_ITEM_TOOLTIP', 14, {
             type: 24,
             id: item.id,
             dbid: item.dbid,
@@ -45,5 +47,7 @@ module.exports = function CrossServerTooltip(mod) {
             crystals: crystals,
             secRemaining: -2
         });
+        
+        return false;
     });
 }

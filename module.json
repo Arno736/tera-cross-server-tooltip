@@ -4,7 +4,7 @@
 	"name": "cross-server-tooltip",
 	"author": "Arno736",
 	"description": "Show tooltips when inspecting gear on players from other servers",
-	"version": "1.8",
+	"version": "1.9",
 	"options": {
 		"niceName": "Cross Server Tooltip",
 		"guiName": "Cross Server Tooltip"

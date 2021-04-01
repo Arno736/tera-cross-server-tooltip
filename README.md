@@ -12,6 +12,12 @@ Show tooltips when inspecting gear on players from other servers
 
 
 
+###### Bug Fixes :
+
+&curren; Blinking Tooltip v104
+
+
+
 
 
 
