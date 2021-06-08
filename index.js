@@ -1,7 +1,7 @@
 module.exports = function CrossServerTooltip(mod) {    
     let paperdoll;
-    mod.hook('S_USER_PAPERDOLL_INFO', 11, (event) => { paperdoll = event; });
-    mod.hook('C_SHOW_ITEM_TOOLTIP_EX', 5, (event) => {
+    mod.hook('S_USER_PAPERDOLL_INFO', 13, (event) => { paperdoll = event; });
+    mod.hook('C_SHOW_ITEM_TOOLTIP_EX', 6, (event) => {
         // 64bit make that some other servers player are considered playing on the same server
         // if (event.serverId == 0) return; // Same sever detected (64bit bug : other server player = 0)
         
