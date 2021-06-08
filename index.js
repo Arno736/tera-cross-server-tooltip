@@ -26,7 +26,7 @@ module.exports = function CrossServerTooltip(mod) {
         }
         
         // Show ToolTip
-        mod.toClient('S_SHOW_ITEM_TOOLTIP', 14, {
+        mod.toClient('S_SHOW_ITEM_TOOLTIP', 15, {
             type: 24,
             id: item.id,
             dbid: item.dbid,
@@ -37,7 +37,6 @@ module.exports = function CrossServerTooltip(mod) {
             amount: item.amount,
             enchant: 0,
             soulbound: item.soulbound,
-            compareStats: false,
             passivitySets: item.passivitySets,
             soulboundName: paperdoll.name,
             passivitySet: item.passivitySet,
