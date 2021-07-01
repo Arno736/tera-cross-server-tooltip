@@ -26,7 +26,7 @@ module.exports = function CrossServerTooltip(mod) {
         }
         
         // Show ToolTip
-        mod.toClient('S_SHOW_ITEM_TOOLTIP', 15, {
+        mod.toClient('S_SHOW_ITEM_TOOLTIP', 16, {
             type: 24,
             id: item.id,
             dbid: item.dbid,
