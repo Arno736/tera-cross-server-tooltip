@@ -4,9 +4,9 @@
 	"name": "cross-server-tooltip",
 	"author": "Arno736",
 	"description": "Show tooltips when inspecting gear on players from other servers",
-	"version": "2.2",
+	"version": "2.3",
 	"options": {
 		"niceName": "Cross Server Tooltip",
-		"guiName": "Cross Server Tooltip (Don't work for now wait for an update)"
+		"guiName": "Cross Server Tooltip (Don't work for patch 108)"
 	}
 }
