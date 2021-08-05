@@ -7,6 +7,6 @@
 	"version": "2.2",
 	"options": {
 		"niceName": "Cross Server Tooltip",
-		"guiName": "Cross Server Tooltip"
+		"guiName": "Cross Server Tooltip (Don't work for now wait for an update)"
 	}
 }

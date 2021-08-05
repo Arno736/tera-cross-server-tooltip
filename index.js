@@ -2,6 +2,13 @@ module.exports = function CrossServerTooltip(mod) {
     let paperdoll;
     mod.hook('S_USER_PAPERDOLL_INFO', 14, (event) => { paperdoll = event; });
     mod.hook('C_SHOW_ITEM_TOOLTIP_EX', 6, (event) => {
+        // Mod don't work for now on the mahtnan stuff please wait for an update
+        // (Patch 108 Mahtnan)
+        return;
+
+        
+        
+        
         // 64bit make that some other servers player are considered playing on the same server
         // if (event.serverId == 0) return; // Same sever detected (64bit bug : other server player = 0)
         
